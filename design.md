@@ -40,12 +40,12 @@ To ESGF2-US project specific staging Globus Search indexes:
 - Read-write metadata for CMIP6, CMIP6Plus, DRCDP, E3SM, input4MIPs, obs4MIPs
 
 The initial transfer, any refreshes, and the final transfer will generate audit that can be inspected by the team and include:
-- Date of transfer
-- Source Solr index
-- Which project or query parameters were used to retrieve metadata
-- The target Globus index (staging of public)
-- The number of metadata entries process
-- The Globus Search ingest ID
+- Transfer start timestamp
+- Source Solr or staging Globus Search index
+- Source query parameters used to retrieve metadata (Project and others)
+- Target staging of public Globus Search index
+- The number of metadata Dataset and File entries procesed
+- The Globus Search ingest UUID
 - The Globus Search ingest response code
 
 #### Metadata synchronization from staging to ESGF-US wide catalog:

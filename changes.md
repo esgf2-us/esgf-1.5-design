@@ -19,6 +19,7 @@
   - Type=File entries for all files in a project
 8. Metadata in ESGF-1.0 for NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
 9. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
+10. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
 
 ## Software Changes
 
@@ -29,12 +30,12 @@
 ### metagrid
 1. Change: modified to work with Globus Search
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
-3. Removed: will no longer display XML formatted metadata
+
 
 ### intake-esgf
 1. Change: modified to work with Globus Search
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
-3. Removed: no longer can return XML results
+3. Removed: will no longer be able to return XML metadata
 
 ### esg-fastapi (NEW)
 1. New: interface to Globus Search used by various components
