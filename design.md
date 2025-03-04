@@ -2,6 +2,9 @@
 
 ESGF-1.5 Catalog and Software Design
 
+![An Architecture Diagram of ESGF-1.5 Catalogs, Software Components, and Metadata load and synchronize processes.](./diagrams/ESGF-1.5 Design.drawio.png)
+
+
 ## Metadata Catalogs
 
 * A single ESGF2-US wide Globus Search index operated by US-Globus will contain all the metadata for projects:
