@@ -1,8 +1,8 @@
 # ESGF-1.5 Design
 
-ESGF-1.5 Catalog and Software Design
+## ESGF-1.5 System Design
 
-![An Architecture Diagram of ESGF-1.5 Catalogs, Software Components, and Metadata load and synchronize processes.](./diagrams/ESGF-1.5 Design.drawio.png)
+![An Architecture Diagram of ESGF-1.5 Catalogs, Software Components, and Metadata load and synchronize processes.](./diagrams/ESGF-1.5 Design.drawio.png "System Design")
 
 
 ## Metadata Catalogs
