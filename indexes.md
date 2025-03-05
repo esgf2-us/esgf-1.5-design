@@ -10,7 +10,9 @@ Legacy index interfaces:
 ## Permissions
 
 The initial owners for all these indexes is:
-- urn:globus:auth:identity:a511c7bc-d274-11e5-9aea-4bedf3cb22c7
+- urn:globus:group:id:f2db79d0-fa05-11ef-9082-05baeb3f2fe1
+
+https://app.globus.org/groups/f2db79d0-fa05-11ef-9082-05baeb3f2fe1/about
 
 ## Public Index
 
@@ -24,37 +26,37 @@ Max size:     100 GB
 
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 Private Staging for CMIP6
+Description:  ESGF2-US-1.5 private staging for CMIP6
 Display Name: ESGF2-US-1.5-Staging-CMIP6
 Status:       open
 Max size:     100 GB
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 Private Staging for CMIP6Plus
+Description:  ESGF2-US-1.5 private staging for CMIP6Plus
 Display Name: ESGF2-US-1.5-Staging-CMIP6Plus
 Status:       open
 Max size:     10 GB
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 SPrivate Staging for DRCDP
+Description:  ESGF2-US-1.5 private staging for DRCDP
 Display Name: ESGF2-US-1.5-Staging-DRCDP
 Status:       open
 Max size:     1 GB
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 Private Staging for E3SM
+Description:  ESGF2-US-1.5 private staging for E3SM
 Display Name: ESGF2-US-1.5-Staging-E3SM
 Status:       open
 Max size:     1 GB
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 Private Staging for input4MIPs
+Description:  ESGF2-US-1.5 private staging for input4MIPs
 Display Name: ESGF2-US-1.5-Staging-input4MIPs
 Status:       open
 Max size:     1 GB
 
 Index ID:     <TBD>
-Description:  ESGF2-US-1.5 rivate Staging for obs4MIPs
+Description:  ESGF2-US-1.5 private staging for obs4MIPs
 Display Name: ESGF2-US-1.5-Staging-obs4MIPs
 Status:       open
 Max size:     1 GB
