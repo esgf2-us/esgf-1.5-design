@@ -2,10 +2,13 @@
 
 ESGF2-US-1.5 Globus Search indexes that are replacing legacy Solr indexes at LLNL, ORNL, and ANL.
 
-Legacy index interfaces:
+Current Solr index metagrid interfaces:
 - [LLNL Metagrid](https://aims2.llnl.gov/search)
 - [ORNL Metagrid](https://esgf-node.ornl.gov/search)
 - [ANL Metagrid](https://esgf-node.cels.anl.gov/search)
+
+New ESGF2-US-1.5 Public Catalog metagrid interface:
+- Beta Metagrid link needed
 
 ## Permissions
 
