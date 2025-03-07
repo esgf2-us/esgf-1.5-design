@@ -27,7 +27,7 @@ New ESGF-1.5 software components
 - esgf-1.5-metadata-synchronizer
 
 The team will retire this software component:
-- The COG component in metagrid will no longer be used
+- metagrid will no longer use the COG component
 
 ### Metadata Transfer
 
