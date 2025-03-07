@@ -25,11 +25,13 @@ Index administrators should create unique credentials for each publisher-index c
 
 ## Public Index
 
+```
 Index ID:     c0173b0c-5587-437a-a912-ef09b6d14e9c
 Description:  ESGF2-US-1.5 Public Catalog
 Display Name: ESGF2-US-1.5-Catalog
 Status:       open
 Max size:     100 GB
+```
 
 ## Staging Indexes
 
