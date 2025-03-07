@@ -34,11 +34,11 @@ Max size:     100 GB
 ## Staging Indexes
 
 
-Index ID:     a37bc34d-de15-493b-9221-b95b13114fd8
-Description:  ESGF2-US-1.5 private staging for CMIP6
-Display Name: ESGF2-US-1.5-Staging-CMIP6
-Status:       open
-Max size:     100 GB
+> Index ID:     a37bc34d-de15-493b-9221-b95b13114fd8
+> Description:  ESGF2-US-1.5 private staging for CMIP6
+> Display Name: ESGF2-US-1.5-Staging-CMIP6
+> Status:       open
+> Max size:     100 GB
 
 Index ID:     1f385759-596e-4085-8d79-5b1dfedd1ca2
 Description:  ESGF2-US-1.5 private staging for CMIP6Plus
