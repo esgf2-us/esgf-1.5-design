@@ -8,20 +8,17 @@
 
 ## Metadata Catalog Changes
 
-1. There will be a single public ESGF2-US Globus Search index with all the metadata for US hosted datasets and files
-2. The index will have Type=Dataset entries transfered from the three LLNL, ORNL, and ANL Solr indexes
-3. The index will have Type=File entries from the three LLNL, ORNL, and ANL Solr indexes
-4. The index will have Type=File entries for all data nodes who have published to DOE indexes, including data notes not at LLNL, ORNL, and ANL
-5. The index will have one Type=File entry for each file replica on a data node
-6. The index will only contain metadata for the CMIP3, CMIP5, CMIP6, CREATE-IP, DRCDP, E3SM, E3SM-supplement, GeoMIP, input4MIPS2, LUCID, obs4MIPs, and TAMIP projects
-7. There will be publishing-site specific staging Globus Search indexes containing
-  - Type=Dataset entries for all datasets
-  - Type=File entries for all files in a project
-  - These entries may span multiple projects 
-  - A site may publish multiple institution_id (eg. for CMIP6Plus, input4MIPs)
-8. Metadata in ESGF-1.0 for NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
-9. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
-10. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
+1. There will be a single public ESGF2-US Globus Search index that combines all the Dataset and File metadata from the three Solr indexes at LLNL, ORNL, and ANL
+2. The metadata includes references to files on data nodes that are not at LLNL, ORNL, and ANL
+3. The metadata includes separate Dataset and File entries for replicas
+4. The index will only contain metadata for the CMIP3, CMIP5, CMIP6, CREATE-IP, DRCDP, E3SM, E3SM-supplement, GeoMIP, input4MIPS2, LUCID, obs4MIPs, and TAMIP projects
+5. There will be publishing-site specific staging Globus Search indexes
+  - Containing all the Dataset and File entries that that publishing-site has published or is allowed to update
+  - With documented project, institution_id, and data_node values that are in scope for each staging index 
+  - At most one publishing-site index can be the authoritative source of metadata entries in the ESGF2-US public index
+6. Metadata in ESGF-1.0 for NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
+7. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
+8. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
 
 ## Software Changes
 
@@ -46,7 +43,7 @@
 
 ### esg-wget API
 1. Change: modified to work with Globus Search
-3. New: search returns datasets, files and replicas hosted on all US based data nodes
+2. New: search returns datasets, files and replicas hosted on all US based data nodes
 
 ### esgf-1.5-metadata-synchronizer (NEW)
 1. Synchronizes staging Globus Search indexes with the public ESGF2-US wide Globus Search index
