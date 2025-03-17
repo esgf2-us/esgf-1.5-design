@@ -45,6 +45,15 @@ Status:       open
 Max size:     1 GB
 ```
 
+### NCAR and Canada External Publishing
+```
+Index ID:     1f385759-596e-4085-8d79-5b1dfedd1ca2
+Description:  ESGF2-US-1.5 private staging for CMIP6Plus
+Display Name: ESGF2-US-1.5-Staging-CMIP6Plus
+Status:       open
+Max size:     10 GB
+```
+
 ### Internal Publishing
 ```
 Index ID:     c7cc5d1e-5740-49c2-aa10-fe31f3bcb035
@@ -98,10 +107,3 @@ Status:       open
 Max size:     100 GB
 ```
 
-```
-Index ID:     1f385759-596e-4085-8d79-5b1dfedd1ca2
-Description:  ESGF2-US-1.5 private staging for CMIP6Plus
-Display Name: ESGF2-US-1.5-Staging-CMIP6Plus
-Status:       open
-Max size:     10 GB
-```
