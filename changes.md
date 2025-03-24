@@ -11,14 +11,15 @@
 1. There will be a single public ESGF2-US Globus Search index that combines all the Dataset and File metadata from the three Solr indexes at LLNL, ORNL, and ANL
 2. The metadata includes references to files on data nodes that are not at LLNL, ORNL, and ANL
 3. The metadata includes separate Dataset and File entries for replicas
-4. The index will only contain metadata for the CMIP3, CMIP5, CMIP6, CREATE-IP, DRCDP, E3SM, E3SM-supplement, GeoMIP, input4MIPS2, LUCID, obs4MIPs, and TAMIP projects
+4. The index will only contain metadata for projects (case sensitive): CMIP3, CMIP5, cmip6, CREATE-IP, DRCDP, e3sm, e3sm-supplement, GeoMIP, input4MIPS2, LUCID, obs4MIPs, and TAMIP
 5. There will be publishing-site specific staging Globus Search indexes
   - Containing all the Dataset and File entries that that publishing-site has published or is allowed to update
   - With documented project, institution_id, and data_node values that are in scope for each staging index 
   - At most one publishing-site index can be the authoritative source of metadata entries in the ESGF2-US public index
-6. Metadata in ESGF-1.0 for NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
-7. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
-8. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
+6. Metadata in ESGF-1.0 projects (case sensivite) NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
+7. Metadata from (case sensitive) project mis-published with the wrong case CMIP6 and E3SM, will be discarded
+8. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
+9. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
 
 ## Software Changes
 

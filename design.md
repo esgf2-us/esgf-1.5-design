@@ -7,11 +7,11 @@
 
 ## Metadata Catalogs
 
-- A single ESGF2-US wide Globus Search index operated by US-Globus will contain all the metadata for projects:
-  - Read-only: CMIP3, CMIP5, CREATE-IP, E3SM-supplement, GeoMIP, LUCID, TAMIP
-  - Synchronized from read-write staging Globus search indexes: CMIP6, CMIP6Plus, DRCDP, E3SM, input4MIPs, obs4MIPs
+- A single ESGF2-US wide Globus Search index operated by US-Globus will contain all the metadata for projects (case sensitive):
+  - Read-only: CMIP3, CMIP5, cmip6, CREATE-IP, e3sm-supplement, GeoMIP, LUCID, TAMIP
+  - Synchronized from read-write staging Globus search indexes: CMIP6Plus, DRCDP, e3sm, input4MIPs, obs4MIPs
 
-* Read-write staging Globus search indexes for: CMIP6, CMIP6Plus, DRCDP, E3SM, input4MIPs, obs4MIPs
+* Read-write staging Globus search indexes for: CMIP6Plus, DRCDP, e3sm, input4MIPs, obs4MIPs
 
 
 ## Software Components
@@ -34,10 +34,10 @@ The team will retire this software component:
 TBD staff will transfer metadata listed above under Metadata Catalog Changes from Solr to Globus Search indexes:
 
 To ESGF2-US wide Globus Search index:
-- Read-only metadata for CMIP3, CMIP5, CREATE-IP, E3SM-supplement, GeoMIP, LUCID, TAMIP will be loaded into the
+- Read-only metadata for CMIP3, CMIP5, cmip6, CREATE-IP, e3sm-supplement, GeoMIP, LUCID, TAMIP will be loaded into the
 
 To ESGF2-US project specific staging Globus Search indexes:
-- Read-write metadata for CMIP6, CMIP6Plus, DRCDP, E3SM, input4MIPs, obs4MIPs
+- Read-write metadata for CMIP6Plus, DRCDP, E3SM, input4MIPs, obs4MIPs
 
 The initial transfer, any refreshes, and the final transfer will generate audit that can be inspected by the team and include:
 - Transfer start timestamp
