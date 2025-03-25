@@ -23,18 +23,33 @@ Indexed are administered by the Globus group [ESGF2-US-1.5 Index Administrators]
 Index administrators should create unique credentials for each publisher-index combination that is authorized to ingest/write to that index.
 
 
+
 ## Public Index
 
 ```
-Index ID:     c0173b0c-5587-437a-a912-ef09b6d14e9c
+Index ID:     a8ef4320-9e5a-4793-837b-c45161ca1845
 Description:  ESGF2-US-1.5 Public Catalog
 Display Name: ESGF2-US-1.5-Catalog
+Status:       open
+Max size:     300 GB
+```
+
+## Testing Index
+
+Note: this index is not in the ESGF expanded resources partition
+
+```
+Index ID:     c0173b0c-5587-437a-a912-ef09b6d14e9c
+Description:  ESGF2-US-1.5 Testing Catalog
+Display Name: ESGF2-US-1.5-Catalog-Testing
 Status:       open
 Max size:     100 GB
 ```
 
+
 ## Staging Indexes
 
+Note: these indexes are not in the ESGF expanded resources partition
 
 ### E3SM External Publishing
 ```
@@ -63,7 +78,6 @@ Status:       open
 Max size:     1 GB
 ```
 
-
 ```
 Index ID:     3c71c174-c8c8-43e5-994c-10dd4251579a
 Description:  ESGF2-US-1.5 private staging for input4MIPs
@@ -82,7 +96,6 @@ Max size:     1 GB
 
 
 ## Other Indexes
-
 
 ### ORNL Playground
 ```
@@ -106,4 +119,3 @@ Display Name: ESGF2-US-1.5-Staging-CMIP6
 Status:       open
 Max size:     100 GB
 ```
-
