@@ -57,7 +57,7 @@ Index ID:     f5a2d874-30ef-40a0-8c8d-e2498f3bd026
 Description:  ESGF2-US-1.5 private staging for E3SM
 Display Name: ESGF2-US-1.5-Staging-E3SM
 Status:       open
-Max size:     1 GB
+Max size:     10 GB
 ```
 
 ### NCAR and Canada External Publishing
