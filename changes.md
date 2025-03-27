@@ -5,6 +5,7 @@
 ## Metadata Schema Changes
 
 1. The metadata _index_node_ attribute will be set to `us-index` in all metadata entries
+2. The metadata _project_ attribute lower case value `cmip3` will be converted to `CMIP3`
 
 ## Metadata Catalog Changes
 
@@ -18,8 +19,8 @@
   - At most one publishing-site index can be the authoritative source of metadata entries in the ESGF2-US public index
 6. Metadata in ESGF-1.0 projects (case sensivite) NARR_Hydrology, CMIP7, or other future projects will not be available once ESGF-1.0 is retired
 7. Metadata from (case sensitive) project mis-published with the wrong case CMIP6 and E3SM, will be discarded
-8. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
-9. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
+9. The three Solr catalogs in LLNL, ORNL, and ANL will be retired at the end of this project.
+10. Catalogs will no longer return metadata in XML format, which is no longer needed by software components that interact with catalogs
 
 ## Software Changes
 
