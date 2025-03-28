@@ -84,11 +84,11 @@ Max size:     1 GB
 ## Staging Indexes Access
 
 Individuals needing to publish to one of the above staging indexes may request it using the following links:
-- Join the [ESGF2-US-1.5-Staging-CMIP6Plus Writers](https://app.globus.org/groups/384deb54-0bd7-11f0-9152-0affcb8df433/about) group
-- Join the [ESGF2-US-1.5-Staging-DRCDP Writers](https://app.globus.org/groups/347626a4-0bd6-11f0-bbb2-0eb46dc826c9/about) group
-- Join the [ESGF2-US-1.5-Staging-E3SM Writers](https://app.globus.org/groups/e59bc7f9-0bd5-11f0-8d3f-0affcb8df433/about) group
-- Join the [ESGF2-US-1.5-Staging-input4MIPs Writers](https://app.globus.org/groups/db31c7ec-0bd6-11f0-bdc1-0affc7e5025d) group
-- Join the [ESGF2-US-1.5-Staging-obs4MIPs Writers](https://app.globus.org/groups/7168bdf1-0bd6-11f0-908b-0e28c1d8b035) group
+- Join the [ESGF2-US-1.5-Staging-CMIP6Plus Publishers](https://app.globus.org/groups/384deb54-0bd7-11f0-9152-0affcb8df433/about) group
+- Join the [ESGF2-US-1.5-Staging-DRCDP Publishers](https://app.globus.org/groups/347626a4-0bd6-11f0-bbb2-0eb46dc826c9/about) group
+- Join the [ESGF2-US-1.5-Staging-E3SM Publishers](https://app.globus.org/groups/e59bc7f9-0bd5-11f0-8d3f-0affcb8df433/about) group
+- Join the [ESGF2-US-1.5-Staging-input4MIPs Publishers](https://app.globus.org/groups/db31c7ec-0bd6-11f0-bdc1-0affc7e5025d) group
+- Join the [ESGF2-US-1.5-Staging-obs4MIPs Publishers](https://app.globus.org/groups/7168bdf1-0bd6-11f0-908b-0e28c1d8b035) group
 
 Requests will be reviewed before being granted.
 
