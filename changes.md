@@ -55,12 +55,13 @@
 1. The COG UI component for data discovery will no longer be used
 
 ### Synchronization Audit (NEW)
-The initial metadtaa transfers from Solr to Globus Search,the final production transition metadata transfer, and synchronization between staging indexes and the ESGF2-US public index will generate audit that can be inspected by the team and include:
+The initial metadata transfers from Solr to Globus Search,the final production transition metadata transfer, and synchronization between staging indexes and the ESGF2-US public index will generate audit that can be inspected by the team and include:
 - Date of metadata transfer
 - Source Solr or staging Globus Search index
 - Which project or query parameters were used to retrieve metadata
-- The target staging of pubblic Globus search index
+- The target staging of public Globus search index
 - The number of Dataset and File metadata entries transfered
 - The Globus Search ingest ID
 - The Globus Search ingest response code
 
+(Metadata transfer and synchronization site)[https://minxu74.github.io/metadata_docs/]
