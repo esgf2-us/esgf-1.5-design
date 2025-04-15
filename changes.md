@@ -27,6 +27,7 @@
 ### esg-publisher
 1. Change: modified to work with Globus Search
 2. Change: modified to publish to a configurable staging Globus Search index or the ESGF2-US public index
+3. Change: change retractions to flag File metadata as retracted instead of deleting it
 
 ### metagrid
 1. Change: modified Globus transfer (backend only) to work with Globus Search
