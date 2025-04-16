@@ -4,21 +4,21 @@ Network Accessible Online Services
 
 ## Metagrid User Interface
 
-* [Primary](https://tbd)
-* [Secondary](https://tbd)
+* Primary: [https://tbd](https://tbd)
+* Secondary: [https://tbd](https://tbd)
 
 
 ## esg-fastapi Developer API
 
-* [Primary](https://tbd)
+* Primary: [https://tbd](https://tbd)
 
 
 ## esg-wget Developer API
 
-* [Primary](https://tbd)
+* Primary [ttps://tbd](https://tbd)
 
 
 ## Synchronizer Operational Status Page
 
-* [Developement](https://minxu74.github.io/metadata_docs/)
-* [Production](https://tbd)
+* Producton: [Pttps://tbd](https://tbd)
+* Development: [https://minxu74.github.io/metadata_docs/](https://minxu74.github.io/metadata_docs/)
