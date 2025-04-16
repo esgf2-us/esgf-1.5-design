@@ -18,7 +18,7 @@ Network Accessible Online Services
 * Primary [ttps://tbd](https://tbd)
 
 
-## Synchronizer Operational Status Page
+## Metadata Migration and Synchronization Status Page
 
 * Producton: [Pttps://tbd](https://tbd)
 * Development: [https://minxu74.github.io/metadata_docs/](https://minxu74.github.io/metadata_docs/)
