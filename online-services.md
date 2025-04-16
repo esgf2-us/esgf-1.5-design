@@ -15,10 +15,10 @@ Network Accessible Online Services
 
 ## esg-wget Developer API
 
-* Primary [ttps://tbd](https://tbd)
+* Primary [https://tbd](https://tbd)
 
 
 ## Metadata Migration and Synchronization Status Page
 
-* Producton: [Pttps://tbd](https://tbd)
+* Production: [ttps://tbd](https://tbd)
 * Development: [https://minxu74.github.io/metadata_docs/](https://minxu74.github.io/metadata_docs/)
