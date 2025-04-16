@@ -20,5 +20,5 @@ Network Accessible Online Services
 
 ## Metadata Migration and Synchronization Status Page
 
-* Production: [ttps://tbd](https://tbd)
+* Production: [https://tbd](https://tbd)
 * Development: [https://minxu74.github.io/metadata_docs/](https://minxu74.github.io/metadata_docs/)
