@@ -32,7 +32,8 @@
 ### metagrid
 1. Change: modified Globus transfer (backend only) to work with Globus Search
    - Frontend component does not change
-3. New: search returns datasets, files and replicas hosted on all US based data nodes
+2. New: search returns datasets, files and replicas hosted on all US based data nodes
+3. New: disallow downloading of retracted datasets and files
 
 ### intake-esgf
 1. Change: modified to work with Globus Search
@@ -51,6 +52,7 @@
 ### esgf-1.5-metadata-synchronizer (NEW)
 1. Synchronizes staging Globus Search indexes with the public ESGF2-US wide Globus Search index
 2. Only entries in the staging index that can be updated: based on Project and Type Dataset and/of File
+3. Retracted Dataset and File entries are synchronized as other metadata, including the retracted flag
 
 ### COG (RETIRED)
 1. The COG UI component for data discovery will no longer be used
