@@ -31,6 +31,7 @@
 
 Issues:
 - [Implement updates for ESGF-1.5 #250](https://github.com/ESGF/esg-publisher/issues/250)
+- [Update esg-publisher for ESGF-1.5 #35](https://github.com/esgf2-us/esgf-1.5-design/issues/35)
 
 
 ### metagrid
@@ -41,6 +42,9 @@ Issues:
 
 Issues:
 - [Implement updates for ESGF-1.5 #739](https://github.com/esgf2-us/metagrid/issues/739)
+- [Update metagrid for ESGF-1.5 #36](https://github.com/esgf2-us/esgf-1.5-design/issues/36)
+- [Common Query Module? #25](https://github.com/esgf2-us/esgf-1.5-design/issues/25)
+- [Provision Metagrid in production with ESGF-1.5 Public Search Index Support #50](https://github.com/esgf2-us/esgf-1.5-design/issues/50)
 
 
 ### intake-esgf
@@ -50,6 +54,7 @@ Issues:
 
 Issues:
 - [Implement updates for ESGF-1.5 #84](https://github.com/esgf2-us/intake-esgf/issues/84)
+- [Update intake-esgf for ESGF-1.5 #37](https://github.com/esgf2-us/esgf-1.5-design/issues/37)
 
 
 ### esg-fastapi (NEW)
@@ -60,6 +65,7 @@ Issues:
 Issues:
 - [Update esg_fastapi for ESGF-1.5 #16](https://github.com/esgf2-us/esg_fastapi/issues/16)
 - [Solr shard in response inaccurate / misleading #18](https://github.com/esgf2-us/esg_fastapi/issues/18)
+- [Provision ESGF-1.5 esg-fastapi in production #51](https://github.com/esgf2-us/esgf-1.5-design/issues/51)
 
 
 ### esg-wget API
@@ -68,12 +74,20 @@ Issues:
 
 Issues:
 - [Implement updates for ESGF-1.5 #45](https://github.com/ESGF/esgf-wget/issues/45)
+- [Update esgf-wget API for ESGF-1.5 #39](https://github.com/esgf2-us/esgf-1.5-design/issues/39)
+- [Common Query Module? #25](https://github.com/esgf2-us/esgf-1.5-design/issues/25)
+- [Provision the ESGF-1.5 esg-wget API in production #52](https://github.com/esgf2-us/esgf-1.5-design/issues/52)
 
 
 ### esgf-1.5-metadata-synchronizer (NEW)
 1. Synchronizes staging Globus Search indexes with the public ESGF2-US wide Globus Search index
 2. Only entries in the staging index that can be updated: based on Project and Type Dataset and/of File
 3. Retracted Dataset and File entries are synchronized as other metadata, including the retracted flag
+
+Issues:
+- [Implement esgf-1.5-metadata-synchronizer #46](https://github.com/esgf2-us/esgf-1.5-design/issues/46)
+- [Final metadata synchronization of the ESGF2-US wide Globus Search index #41](https://github.com/esgf2-us/esgf-1.5-design/issues/41)
+- [Provision ESGF-1.5 synchronizer and status web in production #53](https://github.com/esgf2-us/esgf-1.5-design/issues/53)
 
 
 ### COG (RETIRED)
