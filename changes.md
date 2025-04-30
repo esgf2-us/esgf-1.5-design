@@ -35,10 +35,12 @@ Issues:
 
 
 ### metagrid
-1. Change: modified Globus transfer (backend only) to work with Globus Search
-   - Frontend component does not change
-2. New: search returns datasets, files and replicas hosted on all US based data nodes
-3. New: disallow downloading of retracted datasets and files
+
+1. New: search returns datasets, files and replicas hosted on all US based data nodes
+   - No code change
+2. New version released starting with `v1.5.0`
+   - News item to advise users on scope of search to US index
+
 
 Issues:
 - [Implement updates for ESGF-1.5 - metagrid#739](https://github.com/esgf2-us/metagrid/issues/739)
