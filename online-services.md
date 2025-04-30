@@ -4,18 +4,18 @@ Network Accessible Online Services
 
 ## Metagrid User Interface
 
-* Primary: [https://tbd](https://tbd)
-* Secondary: [https://tbd](https://tbd)
+* Primary: [https://metagrid.esgf-west.org]([https://tbd](https://metagrid.esgf-west.org)
+* Secondary: [https://metagrid-alt.esgf-west.org]([https://tbd](https://metagrid-alt.esgf-west.org)
 
 
 ## esg-fastapi Developer API
 
-* Primary: [https://tbd](https://tbd)
+* Primary: [https://esg-fastapi.esgf-west.org](https://esg-fastapi.esgf-west.org)
 
 
 ## esg-wget Developer API
 
-* Primary [https://tbd](https://tbd)
+* Primary [https://esg-wget.esgf-west.org](https://esg-wget.esgf-west.org)
 
 
 ## Metadata Migration and Synchronization Status Page
