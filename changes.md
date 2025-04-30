@@ -32,7 +32,6 @@
 Issues:
 - [Implement updates for ESGF-1.5 - esg-publisher#250](https://github.com/ESGF/esg-publisher/issues/250)
 - [Update esg-publisher for ESGF-1.5 - esgf-1.5-design#35](https://github.com/esgf2-us/esgf-1.5-design/issues/35)
-- esgf2-us/esgf-1.5-design#35
 
 
 ### metagrid
