@@ -16,21 +16,21 @@
 ## Software Components
 
 Existing ESGF-1.0 software components that are being modified for ESGF-1.5:
-- esg-publisher
-- intake-esgf
-- metagrid
-- esgf-wget
+- esg-publisher - [https://github.com/ESGF/esg-publisher](https://github.com/ESGF/esg-publisher)
+- intake-esgf - [https://github.com/esgf2-us/intake-esgf](https://github.com/esgf2-us/intake-esgf)
+- metagrid - [https://github.com/esgf2-us/metagrid](https://github.com/esgf2-us/metagrid)
+- esgf-wget - [https://github.com/ESGF/esgf-wget](https://github.com/ESGF/esgf-wget)
 
 New ESGF-1.5 software components
-- esg_fastapi
-- esgf-1.5-metadata-synchronizer
+- esg_fastapi - [https://github.com/esgf2-us/esg_fastapi](https://github.com/esgf2-us/esg_fastapi)
+- metadata_migrate_sync - [https://github.com/esgf2-us/metadata_migrate_sync](https://github.com/esgf2-us/metadata_migrate_sync)
 
 The team will retire this software component:
 - metagrid will no longer use the COG component
 
 ### Metadata Transfer
 
-TBD staff will transfer metadata listed above under Metadata Catalog Changes from Solr to Globus Search indexes:
+Transfer metadata listed above under Metadata Catalog Changes from Solr to Globus Search indexes:
 
 To ESGF2-US wide Globus Search index:
 - Read-only metadata for CMIP3, CMIP5, cmip6, CREATE-IP, e3sm-supplement, GeoMIP, LUCID, TAMIP will be loaded into the
@@ -48,7 +48,8 @@ The initial transfer, any refreshes, and the final transfer will generate audit 
 - The Globus Search ingest response code
 
 #### Metadata synchronization from staging to ESGF-US wide catalog:
+
 - A configurable synchronizer will be developed between staging and the ESGF-US wide catalog
 - This synchronizer will generate the same audit records that the initial/final transfer generated (see above)
 - Audit records will be publicly viewable
- 
+- [Metadata migrate/synchronize design notes](https://esgf2-us.github.io/metadata_migrate_sync/Notes/notes/)
