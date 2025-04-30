@@ -29,33 +29,56 @@
 2. Change: modified to publish to a configurable staging Globus Search index or the ESGF2-US public index
 3. Change: change retractions to flag File metadata as retracted instead of deleting it
 
+Issues:
+- [Implement updates for ESGF-1.5 #250](https://github.com/ESGF/esg-publisher/issues/250)
+
+
 ### metagrid
 1. Change: modified Globus transfer (backend only) to work with Globus Search
    - Frontend component does not change
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
 3. New: disallow downloading of retracted datasets and files
 
+Issues:
+- [Implement updates for ESGF-1.5 #739](https://github.com/esgf2-us/metagrid/issues/739)
+
+
 ### intake-esgf
 1. Change: modified to work with Globus Search
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
 3. Removed: will no longer be able to return XML metadata
+
+Issues:
+- [Implement updates for ESGF-1.5 #84](https://github.com/esgf2-us/intake-esgf/issues/84)
+
 
 ### esg-fastapi (NEW)
 1. New: interface to Globus Search used by various components
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
 3. New: metadata only returned in JSON format
 
+Issues:
+- [Update esg_fastapi for ESGF-1.5 #16](https://github.com/esgf2-us/esg_fastapi/issues/16)
+- [Solr shard in response inaccurate / misleading #18](https://github.com/esgf2-us/esg_fastapi/issues/18)
+
+
 ### esg-wget API
 1. Change: modified to work with Globus Search
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
+
+Issues:
+- [Implement updates for ESGF-1.5 #45](https://github.com/ESGF/esgf-wget/issues/45)
+
 
 ### esgf-1.5-metadata-synchronizer (NEW)
 1. Synchronizes staging Globus Search indexes with the public ESGF2-US wide Globus Search index
 2. Only entries in the staging index that can be updated: based on Project and Type Dataset and/of File
 3. Retracted Dataset and File entries are synchronized as other metadata, including the retracted flag
 
+
 ### COG (RETIRED)
 1. The COG UI component for data discovery will no longer be used
+
 
 ### Synchronization Audit (NEW)
 The initial metadata transfers from Solr to Globus Search,the final production transition metadata transfer, and synchronization between staging indexes and the ESGF2-US public index will generate audit that can be inspected by the team and include:
