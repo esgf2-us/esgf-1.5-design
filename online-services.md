@@ -4,8 +4,8 @@ Network Accessible Online Services
 
 ## Metagrid User Interface
 
-* Primary: [https://metagrid.esgf-west.org]([https://tbd](https://metagrid.esgf-west.org)
-* Secondary: [https://metagrid-alt.esgf-west.org]([https://tbd](https://metagrid-alt.esgf-west.org)
+* Primary: [https://metagrid.esgf-west.org](https://metagrid.esgf-west.org)
+* Secondary: [https://metagrid-alt.esgf-west.org](https://metagrid-alt.esgf-west.org)
 
 
 ## esg-fastapi Developer API
