@@ -59,14 +59,15 @@ Issues:
 - [Update intake-esgf for ESGF-1.5 - esgf-1.5-design#37](https://github.com/esgf2-us/esgf-1.5-design/issues/37)
 
 
-### esg-fastapi (NEW)
+### esg_fastapi (NEW)
 1. New: interface to Globus Search used by various components
 2. New: search returns datasets, files and replicas hosted on all US based data nodes
 3. New: metadata only returned in JSON format
 
 Issues:
-- [Update esg_fastapi for ESGF-1.5 #16](https://github.com/esgf2-us/esg_fastapi/issues/16)
-- [Solr shard in response inaccurate / misleading #18](https://github.com/esgf2-us/esg_fastapi/issues/18)
+- [Update esg_fastapi for ESGF-1.5 esg_fastapi#16](https://github.com/esgf2-us/esg_fastapi/issues/16)
+- [Globus search facets do not return all the facet values esg_fastapi#19](https://github.com/esgf2-us/esg_fastapi/issues/19)
+- [Solr shard in response inaccurate / misleading esg_fastapi#18](https://github.com/esgf2-us/esg_fastapi/issues/18)
 - [Provision ESGF-1.5 esg-fastapi in production - esgf-1.5-design#51](https://github.com/esgf2-us/esgf-1.5-design/issues/51)
 
 
