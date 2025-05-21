@@ -15,14 +15,14 @@ Network Accessible Online Services
 
 * Primary: [https://1-5-test-esgf-esg-fastapi.apps.onyx.ccs.ornl.gov/](https://1-5-test-esgf-esg-fastapi.apps.onyx.ccs.ornl.gov/)
 
-* Planned: [https://esg-fastapi.esgf-west.org](https://esg-fastapi.esgf-west.org)
+* Planned: [https://esg-fastapi.esgf.io](https://esg-fastapi.esgf.io
 
 
 ## esg-wget Developer API
 
 * Primary [https://nimbus.llnl.gov/wget](https://nimbus-dev.llnl.gov/wget)
 
-* Planned: [https://esg-wget.esgf-west.org](https://esg-wget.esgf-west.org)
+* Planned: [https://esg-wget.esgf.io](https://esg-wget.esgf.io)
 
 
 ## Metadata Migration and Synchronization Status Page
