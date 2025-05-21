@@ -1,4 +1,4 @@
-# ESGF-1.5 End-to-End Pre-production Tedting
+# ESGF-1.5 End-to-End Pre-production Testing
 
 ** Testing and validation of Globus Search index metadata and software tools used to publish, search, and browse metadata **
 
