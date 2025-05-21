@@ -7,8 +7,8 @@ Network Accessible Online Services
 * Primary: [https://1-5-test-metagrid.apps.onyx.ccs.ornl.gov/search](https://1-5-test-metagrid.apps.onyx.ccs.ornl.gov/search)
 * Secondary: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/)
 
-* Planned Primary: [https://metagrid.esgf-west.org](https://metagrid.esgf-west.org)
-* Planned Secondary: [https://metagrid-alt.esgf-west.org](https://metagrid-alt.esgf-west.org)
+* Planned Primary: [https://metagrid.esgf.io](https://metagrid.esgf.io)
+* Planned Secondary: [https://metagrid-alt.metagrid.esgf.io](https://metagrid-alt.esgf.io)
 
 
 ## esg-fastapi Developer API
@@ -20,7 +20,7 @@ Network Accessible Online Services
 
 ## esg-wget Developer API
 
-* Primary [https://nimbus-dev.llnl.gov/wget](https://nimbus-dev.llnl.gov/wget)
+* Primary [https://nimbus.llnl.gov/wget](https://nimbus-dev.llnl.gov/wget)
 
 * Planned: [https://esg-wget.esgf-west.org](https://esg-wget.esgf-west.org)
 
