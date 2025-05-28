@@ -6,8 +6,8 @@ Network Accessible Online Services
 
 Most users will continue using the LLNL Metagrid until the ORNL is announced.
 
-* Primary: [https://esgf-node.ornl.gov/search](https://esgf-node.ornl.gov/search){:target="_blank"} 
-* Secondary: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/){:target="_blank"} 
+* Primary: [https://esgf-node.ornl.gov/search](https://esgf-node.ornl.gov/search)
+* Secondary: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/)
 
 
 ## esg-fastapi Developer API
