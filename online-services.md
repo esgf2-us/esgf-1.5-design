@@ -6,18 +6,13 @@ Network Accessible Online Services
 
 Most users will continue using the LLNL Metagrid until the ORNL is announced.
 
-* Primary: [https://esgf-node.ornl.gov/search](https://esgf-node.ornl.gov/search)
-* Secondary: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/)
-
-* Planned Primary: [https://metagrid.esgf.io](https://metagrid.esgf.io)
-* Planned Secondary: [https://metagrid-alt.metagrid.esgf.io](https://metagrid-alt.esgf.io)
+* Primary: [https://esgf-node.ornl.gov/search](https://esgf-node.ornl.gov/search){:target="_blank"} 
+* Secondary: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/){:target="_blank"} 
 
 
 ## esg-fastapi Developer API
 
-* Primary: [https://esgf-node.ornl.gov/esgf15_search_api/](https://esgf-node.ornl.gov/esgf15_search_api/)
-
-* Planned: [https://esgf15_search_api.esgf.io](https://esgf15_search_api.esgf.io
+* Primary: [https://esgf-node.ornl.gov/esgf-1-5-bridge](https://esgf-node.ornl.gov/esgf-1-5-bridge)
 
 
 ## esg-wget Developer API
@@ -26,11 +21,7 @@ Most users will continue using the LLNL Metagrid until the ORNL is announced.
 
 * Primary next: One that will be brought up at ORNL soon
 
-* Planned [https://esg-wget.esgf.io](https://esg-wget.esgf.io)
-
 
 ## Metadata Migration and Synchronization Status Page
 
 * Primary: [https://esgf2-us.github.io/metadata_migrate_sync](https://esgf2-us.github.io/metadata_migrate_sync)
-
-* Development: [https://minxu74.github.io/metadata_docs/](https://minxu74.github.io/metadata_docs/)
