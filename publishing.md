@@ -5,7 +5,7 @@ These `esg-publisher` steps assume familiarity with esg-publisher and some Globu
  - [] Login to app.globus.org
  - [] Locate the UUID of the index needed to publish (see `indexes.md`)
  - [] Apply for permission for the correct index
- - [] `pip install esgcet==5.3.0b3`
+ - [] `pip install esgcet`
  - [] Modify esg.yaml file with the following settings: 
    ```
    index_node: us-index
