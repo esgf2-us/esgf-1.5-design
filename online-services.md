@@ -8,7 +8,7 @@ Most users will continue using the LLNL Metagrid until the ORNL is announced.
 
 * Primary: [https://esgf-node.ornl.gov/search](https://esgf-node.ornl.gov/search)
 * Secondary: [https://metagrid.esgf-west.org/search](https://metagrid.esgf-west.org/search)
-* * Previously: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/)
+* * Previous alias: [https://aims2.llnl.gov/search/](https://aims2.llnl.gov/search/)
 
 
 ## esg-fastapi Developer API
